@@ -64,7 +64,7 @@ while cap.isOpened():
             except Exception as e:
                 print(f"[ERROR] Failed to send email: {e}")
 
-            alert_sent = True  # Only one alert per run
+            alert_sent = True 
 
     # Show frame in a window
     cv2.imshow('Pose Estimation', frame)
